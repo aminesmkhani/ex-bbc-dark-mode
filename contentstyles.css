@@ -1,0 +1,46 @@
+#bbcdarkmode-toggle-button{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#bbcdarkmode-toggle-button:hover{
+    background-color: #999898;
+}
+
+.bbc-dark-mode-dark{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.bbc-dark-mode-dark aside * {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    } 
+    
+    .bbc-dark-mode-dark :not(aside) * {
+      color: #ffffff !important;
+    }
+    
+    .bbc-dark-mode-dark #topStories-label * {
+      color: #ffffff !important;
+    }
+    
+    .bbc-dark-mode-dark #header-content * {
+      color: initial !important;
+    }
+    
+    .bbc-dark-mode-dark #orb-banner * {
+      color: initial !important;
+    }
+    
